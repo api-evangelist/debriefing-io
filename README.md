@@ -1,4 +1,4 @@
-# debriefing-io
+# Debriefing
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-debriefing-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://debriefing.io/
+Debriefing provides competitive intelligence for small to mid-sized companies (20‑249 employees) across any industry. It monitors competitor pricing, product launches, hiring, positioning, and market pages, turning source‑backed evidence into concise briefs with recommended actions. Users receive briefings via email, Slack, or a dashboard, and can request free or paid briefs through the platform. The service includes paid plans with advanced monitoring, a free trial, and a clear refund policy.
+
+**Areas:** Competitive-Intelligence · SaaS · B2B · Monitoring · Small-Business
+
+## Debriefing on APIs.io
+
+Everything profiled for Debriefing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/debriefing-io/](https://apis.io/providers/debriefing-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Debriefing Read API](https://apis.io/apis/debriefing-io/debriefing-read-api/) — Read competitors, signals, digests, and battlecards for one workspace.
+- [Debriefing Battlecards API](https://apis.io/apis/debriefing-io/debriefing-io-battlecards-api/) — Generated battlecards for this workspace.
+- [Debriefing Competitors API](https://apis.io/apis/debriefing-io/debriefing-io-competitors-api/) — Competitors this workspace tracks.
+- [Debriefing Digests API](https://apis.io/apis/debriefing-io/debriefing-io-digests-api/) — Generated digests for this workspace.
+- [Debriefing Signals API](https://apis.io/apis/debriefing-io/debriefing-io-signals-api/) — Evidence-backed competitor moves.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Debriefing Io Agentic Access](https://apis.io/agentic-access/debriefing-io/debriefing-io-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Debriefing Io Context](https://apis.io/jsonld/debriefing-io/debriefing-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Debriefing API Rules](https://apis.io/rules/debriefing-io/debriefing-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Debriefing Io Authentication](https://apis.io/security/debriefing-io/debriefing-io-authentication/)
+- [Debriefing Io Domain Security](https://apis.io/security/debriefing-io/debriefing-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Debriefing Io Plans Pricing](https://apis.io/plans/debriefing-io/debriefing-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://debriefing.io/)
+- [Documentation](https://debriefing.io/developers.md)
+- [Getting started](https://debriefing.io/guides/getting-started-with-competitive-intel)
+- [API reference](https://debriefing.io/developers/openapi.yaml)
+- [Pricing](https://debriefing.io/pricing.md)
+- [Support](https://debriefing.io/contact)
+- [Terms of service](https://debriefing.io/terms)
+- [Privacy policy](https://debriefing.io/privacy_policy)
+
+## API Evangelist rating
+
+**Kin Score 55.8** — strong · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 60.0 |
+
+**Agent readiness 56.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/debriefing-io/](https://apis.io/providers/debriefing-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Debriefing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/debriefing-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
